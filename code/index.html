@@ -6,10 +6,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Import CSS -->
     <link rel="stylesheet" href="style.css" />
+    <!-- Import CSS Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <!-- Webpage Title -->
     <title>Signup & Login Form in HTML, CSS, and JavaScript!</title>
-    <!-- Import JavaScript -->
-    <script src="index.js"></script>
   </head>
-  <body></body>
+  <body>
+    <section class=""container-forms">
+      <!-- Login Form -->
+      <div class="form-login">
+        <div class="form-content">
+          <header>Login</header>
+          <form action="#">
+            <!-- Email Input -->
+            <div class="field input-field">
+              <input type="email" placeholder="Email Address" class="input">
+            </div>
+
+            <!-- Password Input -->
+            <div class="field input-field">
+              <input type="password" placeholder="Password" class="password">
+              <i class="bx bx-hide eye-icon"></i>
+            </div>
+
+            <div class="form-link">
+              <a href="#" class="forgot-password">Forgot Password?</a>
+            </div>
+
+            <div class="field button-field">
+              <button>Login</button>
+            </div>
+          </form>
+
+          <div class="form-link">
+            <span>Don't have an account? <a href="#" class="link signup-link">Signup</a></span>
+          </div>
+        </div>
+
+        <div class="line"></div>
+
+        <!-- Facebook Login -->
+        <div class="social-media-options">
+          <a href="#" class="field facebook">
+            <i class="bx bxl-facebook facebook-icon"></i>
+            <span>Login with Facebook</span>
+          </a>
+        </div>
+
+        <!-- Google Login -->
+        <div class="social-media-options">
+          <a href="#" class="field google">
+            <img src="#" alt="" class="google-img">
+            <span>Login with Google</span>
+          </a>
+        </div>
+
+
+      </div>
+
+      <!-- Signup Form -->
+      <div class="form-content">
+        <header>Signup</header>
+        <form action="#">
+          <!-- Email Input -->
+          <div class="field input-field">
+            <input type="email" placeholder="Email Address" class="input">
+          </div>
+          <!-- Password Input -->
+          <div class="field input-field">
+            <input type="password" placeholder="Password" class="password">
+          </div>
+          <!-- Confirm Password Input -->
+          <div class="field input-field">
+            <input type="password" placeholder="Confirm Password" class="password">
+            <i class="bx bx-hide eye-icon"></i>
+          </div>
+
+          <div class="field button-field">
+            <button>Signup</button>
+          </div>
+        </form>
+
+        <div class="form-link">
+          <span>Already have an account? <a href="#" class="link login-link">Login</a></span>
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <!-- Facebook Login -->
+      <div class="social-media-options">
+        <a href="#" class="field facebook">
+          <i class="bx bxl-facebook facebook-icon"></i>
+          <span>Login with Facebook</span>
+        </a>
+      </div>
+
+      <!-- Google Login -->
+      <div class="social-media-options">
+        <a href="#" class="field google">
+          <img src="#" alt="" class="google-img">
+          <span>Login with Google</span>
+        </a>
+      </div>
+    </section>
+
+        <!-- Import JavaScript -->
+        <script src="index.js"></script>
+  </body>
 </html>
